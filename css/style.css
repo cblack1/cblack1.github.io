@@ -1,0 +1,68 @@
+body {
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main {
+		box-shadow: 0px 10px 10px 10x rgba(255,255,255,0.8);
+		background-color: rgba(255,255,255,0.8);
+		width:600px;
+		margin: 0 auto; 
+		padding: 20px;
+		border-radius: 10px;
+}
+
+h1 {
+	font-family: 'Raleway Dots', cursive;
+	font-size: 20px;
+	text-align: center;
+	border-bottom: 2px solid orange;
+	max-width: 50%;
+	margin: 0 auto;
+}
+h2 {
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+img {
+	width: 200px;
+	margin: 0 auto; /* These two lines center an image */
+	display: block;
+	border: 2px dotted orange;
+}
+
+h3 {
+	color: black;
+	font-size: 15px;
+	cursor:pointer;
+	margin-bottom: 0;
+}
+
+h3:hover {
+	color:lightblue;
+}
+
+
+p,
+ol,
+ul {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+	}
+
+	a {
+		font-weight: bold;
+		color: #dd3300;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #aa0000;
+		text-decoration: underline;
+	}
